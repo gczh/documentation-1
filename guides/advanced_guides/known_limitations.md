@@ -19,8 +19,10 @@ You can create __up to 200 indexes__ in MeiliSearch. This limit has been hard se
 
 ### Maximum words per attribute
 
-A maximum of __1000 words par attribute__ can be indexed. This limit is enforced for relevancy reasons. The more words there are in a given attribute, the less relevant the search queries will be.
-If you put more than 1000 words in one attribute, only the first 1000 will be indexed.
+A maximum of __1000 words par attribute__ can be indexed. This means that if an attribute contains more than 1000 words, only the first 1000 words will be indexed and the rest will be silently ignored.
+
+This limit is enforced for relevancy reasons. The more words there are in a given attribute, the less relevant the search queries will be.
+
 
 ## Other limitations
 
